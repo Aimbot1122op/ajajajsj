@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Uchu!</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+        
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url('https://media1.tenor.com/m/rNbOhgMCWOkAAAAC/jethalal-jethalal-dancing.gif');
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            background-color: transparent; /* Remove background color */
+            position: relative;
+            z-index: 1; /* Ensure content is above background */
+            max-width: 90%;
+            width: 600px; /* Adjust maximum width as needed */
+        }
+        .heading {
+            font-size: 2.5em;
+            color: #ff4500;
+        }
+        .message {
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+        .balloons {
+            margin-top: 20px;
+        }
+        .text {
+            margin-top: 20px;
+            font-size: 1.2em;
+            background-color: transparent; /* Remove background color */
+            max-width: 90%;
+            width: 600px; /* Adjust maximum width as needed */
+        }
+        .styled-text {
+            font-family: 'Caveat', cursive;
+            font-size: 1.2em;
+            margin-top: 20px;
+            animation: flicker 2s infinite;
+            background-color: transparent; /* Remove background color */
+            max-width: 90%;
+            width: 600px; /* Adjust maximum width as needed */
+        }
+        @keyframes flicker {
+            0%, 100% {
+                color: white;
+                text-shadow: 0 0 10px white;
+            }
+            25% {
+                color: red;
+                text-shadow: 0 0 10px red;
+            }
+            50% {
+                color: blue;
+                text-shadow: 0 0 10px blue;
+            }
+            75% {
+                color: white;
+                text-shadow: 0 0 10px white;
+            }
+        }
+        .video-container {
+            margin-top: 20px;
+            max-width: 90%;
+            width: 600px; /* Adjust maximum width as needed */
+        }
+        .logo {
+            margin-top: 10px;
+        }
+        .logo img {
+            width: 60px; /* Increase the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+        .audio {
+            display: none;
+        }
+        .left-image {
+            position: absolute;
+            left: 20px;
+            top: 20px;
+            width: 100px; /* Adjust the width as needed */
+            height: auto;
+            z-index: 0; /* Behind the content */
+        }
+        .right-image {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            width: 100px; /* Adjust the width as needed */
+            height: auto;
+            z-index: 0; /* Behind the content */
+        }
+        @media (max-width: 600px) {
+            .container {
+                max-width: 90%;
+                width: 90%;
+            }
+            .heading {
+                font-size: 1.5em;
+            }
+            .message, .text, .styled-text {
+                font-size: 1em;
+                max-width: 90%;
+                width: 90%;
+            }
+            .video-container {
+                max-width: 90%;
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img class="left-image" src="https://i.ibb.co/8smV8QS/left-image.png" alt="Left Image">
+    <img class="right-image" src="https://i.ibb.co/LRs0WcX/right-image.png" alt="Right Image">
+
+    <div class="container">
+        <div class="heading">Happy Birthday Uchu!</div>
+        <div class="logo">
+            <img src="https://i.ibb.co/3hfcnxc/laughing-emoji.gif" alt="Laughing Emoji">
+        </div>
+        <div class="message">Wishing you a day filled with happiness and a year filled with joy.</div>
+        <div class="balloons">🎈🎉🎂🎁🎊</div>
+    </div>
+    <div class="styled-text">
+        Acha hua us din Medical Shop Band tha warna tu nhai milti yaar!! Aur khaao piyooo ( sprite kya soch rha ) (mazak mai lihka :) )  aur moj karo chill rhe mast!! HAppy BiRtHDAy Uchu!!
+    </div>
+    <div class="text">
+        yeh Suno tumare lihe Shayri👇👇!!
+    </div>
+    <div class="text">
+        Gadha jo khaye wo Ghas ho tum, Buddhe ka Chyawanprash ho tum, Idiot stupid bakwas ho tum, Par jo bhi ho yar, Dost Jhakaas ho tum
+    </div>
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/v4kFaD8SQMc?autoplay=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="audio">
+        <iframe width="0" height="0" src="https://www.youtube.com/embed/Xi8Fabcb_MA?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+</body>
+</html>
